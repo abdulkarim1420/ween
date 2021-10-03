@@ -1,0 +1,53 @@
+@media all and (max-width: 767px) {
+  body {
+    background-image: url("imgs/1.png");
+    background-repeat: no-repeat;
+    background-size: 600%;
+    background-position: right top;
+  }
+}
+@media (min-width: 768px) and (max-width: 3840px) {
+  body {
+    background-image: url("imgs/1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right top;
+  }
+}
+.navbar-nav {
+  padding-right: 2%;
+}
+.btn1 {
+  border: 0.2rem solid #fbd5aa;
+  width: 170px;
+  height: auto;
+  font-size: 17px;
+}
+.btn2 {
+  border: 0.2rem solid #f38c16;
+  width: 170px;
+  height: auto;
+  font-size: 17px;
+}
+.card {
+  border: 0;
+  border-radius: 30px;
+  border: 0.2rem solid #fbd5aa;
+}
+.orange {
+  color: #f38c16;
+}
+.bg-orange {
+  background-color: #fbd5aa;
+}
+.bg-orange2 {
+  background-color: #f38c16;
+}
+.rounded1 {
+  border-radius: 25px;
+}
+.images {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f38c16;
+}
