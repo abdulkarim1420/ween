@@ -11,8 +11,16 @@
     background-image: url("imgs/1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: right top;
   }
+}
+@font-face {
+  font-family: "JannaLT";
+  src: url("fonts/JannaLT-Regular.OTF");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "JannaLT";
 }
 .navbar-nav {
   padding-right: 2%;
@@ -50,4 +58,34 @@
   padding-top: 50px;
   padding-bottom: 100px;
   background-color: #f38c16;
+}
+.text-shadow {
+  color: #f38c16;
+  text-shadow: 3px 3px 6px rgb(0 0 0 / 30%);
+}
+.text-shadow2 {
+  color: #000000;
+  text-shadow: 3px 3px 6px rgb(0 0 0 / 30%);
+}
+.line {
+  color: black;
+  display: inline;
+  background-image: linear-gradient(#fff 65%, #f38c16 70%);
+}
+.line2 {
+  color: black;
+  display: inline;
+  background-image: linear-gradient(#f38c16 65%, rgb(255, 189, 113) 70%);
+}
+.hr {
+  display: flex;
+  align-items: center;
+  margin: 8px 0px;
+}
+.hr::after {
+  content: "";
+  flex-grow: 1;
+  background: #fbd5aa;
+  height: 3px;
+  margin: 0px 8px;
 }
