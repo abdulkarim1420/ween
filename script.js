@@ -18,12 +18,30 @@ $(document).ready(function(){
 
   AOS.init();
 
+
+// var app = document.getElementById('app');
+
+// var typewriter = new Typewriter(app, {
+//     loop: false,
+//     delay: 50
+// });
+
+// typewriter.typeString('وين يسهل عليك معرفة وجهتك الجاية من خلال استعراض تفاصيل الفعاليات ومعلوماتها ويمكنك من الحجز والدفع لكل فعالية <strong>بسهولة</strong>.')
+//     .start();
+
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
-    loop: false,
-    delay: 50
+  loop: true,
+  delay: 75,
 });
 
-typewriter.typeString('وين يسهل عليك معرفة وجهتك الجاية من خلال استعراض تفاصيل الفعاليات ومعلوماتها ويمكنك من الحجز والدفع لكل فعالية <strong>بسهولة</strong>.')
-    .start();
+typewriter
+  .pauseFor(2500)
+  .typeString('A simple yet powerful native javascript')
+  .pauseFor(300)
+  .deleteChars(10)
+  .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
+  .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
+  .pauseFor(1000)
+  .start();
