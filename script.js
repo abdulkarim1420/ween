@@ -18,6 +18,17 @@ $(document).ready(function(){
 
   AOS.init();
 
+
+  $(function() {
+    $("li").click(function() {
+      // remove classes from all
+      $("li").removeClass("current");
+      // add class to the one we clicked
+      $(this).addClass("current");
+    });
+  });
+
+
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
