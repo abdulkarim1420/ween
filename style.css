@@ -69,7 +69,7 @@
 }
 .line {
   color: black;
-  display: inline;
+  display: inline-block;
   background-image: linear-gradient(#fff 65%, #f38c16 70%);
 }
 .line2 {
