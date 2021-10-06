@@ -37,5 +37,5 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .typeString('A simple yet powerful native javascript')
+  .typeString('وين يسهل عليك معرفة وجهتك الجاية من خلال استعراض تفاصيل الفعاليات ومعلوماتها ويمكنك من الحجز والدفع لكل فعالية <strong>بسهولة</strong>.')
   .start();
