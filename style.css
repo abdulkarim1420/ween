@@ -13,15 +13,20 @@
     background-size: 100%;
   }
 }
-/* @font-face {
-  font-family: "JannaLT";
-  src: url("fonts/JannaLT-Regular.OTF");
-  font-weight: normal;
-  font-style: normal;
+@font-face {
+  font-family: "STC Forward Regular";
+  src: url("157bc09a1cd0a9c9a52fe4287c0e1d31.eot"); /* IE9*/
+  src: url("157bc09a1cd0a9c9a52fe4287c0e1d31.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("157bc09a1cd0a9c9a52fe4287c0e1d31.woff2") format("woff2"),
+    /* chrome、firefox */ url("157bc09a1cd0a9c9a52fe4287c0e1d31.woff")
+      format("woff"),
+    /* chrome、firefox */ url("157bc09a1cd0a9c9a52fe4287c0e1d31.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("157bc09a1cd0a9c9a52fe4287c0e1d31.svg#STC Forward Regular")
+      format("svg"); /* iOS 4.1- */
 }
-* {
-  font-family: "JannaLT";
-} */
 .navbar-nav {
   padding-right: 2%;
 }
