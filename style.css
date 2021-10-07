@@ -13,7 +13,7 @@
     background-size: 100%;
   }
 }
-@font-face {
+/* @font-face {
   font-family: "JannaLT";
   src: url("fonts/JannaLT-Regular.OTF");
   font-weight: normal;
@@ -21,7 +21,7 @@
 }
 * {
   font-family: "JannaLT";
-}
+} */
 .navbar-nav {
   padding-right: 2%;
 }
