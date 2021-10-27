@@ -29,18 +29,6 @@ $(document).ready(function(){
   });
 
 
-// var app = document.getElementById('app');
-
-// var typewriter = new Typewriter(app, {
-//   loop: false,
-//   delay: 50,
-// });
-
-// typewriter
-//   .typeString('وين يسهل عليك معرفة وجهتك الجاية من خلال استعراض تفاصيل الفعاليات ومعلوماتها ويمكنك من الحجز والدفع لكل فعالية <strong>بسهولة</strong>.')
-//   .start();
-
-
 $('#typewriteText').typewrite({
   actions: [
       {speed: 15},
